@@ -11,17 +11,22 @@ def parse_gridfile(file_path):
     # 处理网格数据
     grid_str = "\n".join(data[1:])
     array = np.genfromtxt(StringIO(grid_str))
-    array = array.reshape((2 * Y, X))
+    array = array.reshape((2*Y, X))
     layer1_grid, layer2_grid = np.vsplit(array, 2)
 
     # 信息
+    print("Grid file parsed successfully.")
     print("bend_penalty:", bend_penalty, "\n", "via_penalty:", via_penalty)
     print("shape of layer1:", layer1_grid.shape)
     print("shape of layer2:", layer2_grid.shape)
     print("X:", X, "Y:", Y)
     # print("layer1 grid:\n", layer1_grid)
     # print("layer2 grid:\n", layer2_grid)
-    return X,Y, bend_penalty, via_penalty, layer1_grid, layer2_grid
+
+    print("layer1 grid.T:\n", layer1_grid.T)
+    print("layer2 grid.T:\n", layer2_grid.T)
+    layer_grids= np.array([layer1_grid.T, layer2_grid.T])
+    return X,Y, bend_penalty, via_penalty, layer_grids
 
 def parse_netlist(file_path):
     #每一行的格式为：net_id pin1_layer pin1_x pin1_y pin2_layer pin2_x pin2_y

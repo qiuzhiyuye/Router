@@ -1,0 +1,578 @@
+Running bench1...
+Grid file parsed successfully.
+bend_penalty: 5 
+ via_penalty: 1
+shape of layer1: (50, 50)
+shape of layer2: (50, 50)
+X: 50 Y: 50
+layer1 grid.T:
+ [[ 1.  1.  1. ...  1.  1.  1.]
+ [ 1.  1.  1. ...  1.  1.  1.]
+ [ 1.  1.  1. ...  1.  1.  1.]
+ ...
+ [-1. -1. -1. ...  1.  1.  1.]
+ [-1. -1. -1. ...  1.  1.  1.]
+ [-1. -1. -1. ...  1.  1.  1.]]
+layer2 grid.T:
+ [[-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ ...
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]]
+Iteration:1
+learning_rate:0.2625
+Routing net id: 16
+Routing net id: 11
+Routing net id: 1
+Routing net id: 2
+Routing net id: 3
+Routing net id: 4
+Routing net id: 17
+Routing net id: 5
+Routing net id: 12
+Routing net id: 7
+Routing net id: 6
+Routing net id: 18
+Routing net id: 8
+Routing net id: 13
+Routing net id: 9
+Routing net id: 10
+Routing net id: 19
+Routing net id: 14
+Routing net id: 15
+Routing net id: 20
+Iteration:2
+learning_rate:0.2625
+Routing net id: 16
+Routing net id: 11
+Routing net id: 1
+Routing net id: 2
+Routing net id: 3
+Routing net id: 4
+Routing net id: 17
+Routing net id: 5
+Routing net id: 12
+Routing net id: 7
+Routing net id: 6
+Routing net id: 18
+Routing net id: 8
+Routing net id: 13
+Routing net id: 9
+Routing net id: 10
+Routing net id: 19
+Routing net id: 14
+Routing net id: 15
+Routing net id: 20
+Routing table is already sorted by net_id.
+Total cost for bench1: 372.0
+Finished bench1 in 0.05 seconds.
+
+Running bench2...
+Grid file parsed successfully.
+bend_penalty: 50 
+ via_penalty: 0
+shape of layer1: (40, 200)
+shape of layer2: (40, 200)
+X: 200 Y: 40
+layer1 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+layer2 grid.T:
+ [[-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ ...
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]
+ [-1. -1. -1. ... -1. -1. -1.]]
+Iteration:1
+learning_rate:0.2625
+Routing net id: 12
+Routing net id: 9
+Routing net id: 5
+Routing net id: 15
+Routing net id: 3
+Routing net id: 6
+Routing net id: 1
+Routing net id: 19
+Routing net id: 10
+Routing net id: 20
+Routing net id: 18
+Routing net id: 16
+Routing net id: 14
+Routing net id: 13
+Routing net id: 2
+Routing net id: 4
+Routing net id: 8
+Routing net id: 17
+Routing net id: 7
+Routing net id: 11
+Iteration:2
+learning_rate:0.2625
+Routing net id: 12
+Routing net id: 9
+Routing net id: 5
+Routing net id: 15
+Routing net id: 3
+Routing net id: 6
+Routing net id: 1
+Routing net id: 19
+Routing net id: 10
+Routing net id: 20
+Routing net id: 18
+Routing net id: 16
+Routing net id: 14
+Routing net id: 13
+Routing net id: 2
+Routing net id: 4
+Routing net id: 8
+Routing net id: 17
+Routing net id: 7
+Routing net id: 11
+Routing table is already sorted by net_id.
+Total cost for bench2: 1760.0
+Finished bench2 in 0.38 seconds.
+
+Running bench3...
+Grid file parsed successfully.
+bend_penalty: 10 
+ via_penalty: 100
+shape of layer1: (60, 60)
+shape of layer2: (60, 60)
+X: 60 Y: 60
+layer1 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+layer2 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+Iteration:1
+learning_rate:0.2625
+Routing net id: 1
+Routing net id: 3
+Routing net id: 5
+Routing net id: 7
+Routing net id: 4
+Routing net id: 9
+Routing net id: 2
+Routing net id: 6
+Routing net id: 8
+Routing net id: 10
+Routing net id: 12
+Routing net id: 13
+Routing net id: 14
+Routing net id: 16
+Routing net id: 15
+Routing net id: 11
+Iteration:2
+learning_rate:0.2625
+Routing net id: 1
+Routing net id: 3
+Routing net id: 5
+Routing net id: 7
+Routing net id: 4
+Routing net id: 9
+Routing net id: 2
+Routing net id: 6
+Routing net id: 8
+Routing net id: 10
+Routing net id: 12
+Routing net id: 13
+Routing net id: 14
+Routing net id: 16
+Routing net id: 15
+Routing net id: 11
+Routing table is already sorted by net_id.
+Total cost for bench3: 469.0
+Finished bench3 in 1.04 seconds.
+
+Running bench4...
+Grid file parsed successfully.
+bend_penalty: 50 
+ via_penalty: 50
+shape of layer1: (50, 50)
+shape of layer2: (50, 50)
+X: 50 Y: 50
+layer1 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+layer2 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+Iteration:1
+learning_rate:0.2625
+Routing net id: 9
+Routing net id: 1
+Routing net id: 10
+Routing net id: 2
+Routing net id: 11
+Routing net id: 3
+Routing net id: 12
+Routing net id: 14
+Routing net id: 15
+Routing net id: 4
+Routing net id: 13
+Routing net id: 5
+Routing net id: 6
+Routing net id: 7
+Routing net id: 8
+Iteration:2
+learning_rate:0.2625
+Routing net id: 9
+Routing net id: 1
+Routing net id: 10
+Routing net id: 2
+Routing net id: 11
+Routing net id: 3
+Routing net id: 12
+Routing net id: 14
+Routing net id: 15
+Routing net id: 4
+Routing net id: 13
+Routing net id: 5
+Routing net id: 6
+Routing net id: 7
+Routing net id: 8
+Routing table is already sorted by net_id.
+Total cost for bench4: 1793.0
+Finished bench4 in 0.81 seconds.
+
+Running bench5...
+Grid file parsed successfully.
+bend_penalty: 10 
+ via_penalty: 20
+shape of layer1: (127, 317)
+shape of layer2: (127, 317)
+X: 317 Y: 127
+layer1 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+layer2 grid.T:
+ [[1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ ...
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]
+ [1. 1. 1. ... 1. 1. 1.]]
+Iteration:1
+learning_rate:0.2625
+Routing net id: 123
+Routing net id: 121
+Routing net id: 92
+Routing net id: 75
+Routing net id: 72
+Routing net id: 68
+Routing net id: 13
+Routing net id: 62
+Routing net id: 87
+Routing net id: 35
+Routing net id: 76
+Routing net id: 11
+Routing net id: 40
+Routing net id: 82
+Routing net id: 22
+Routing net id: 37
+Routing net id: 5
+Routing net id: 48
+Routing net id: 10
+Routing net id: 114
+Routing net id: 81
+Routing net id: 1
+Routing net id: 19
+Routing net id: 23
+Routing net id: 49
+Routing net id: 125
+Routing net id: 122
+Routing net id: 100
+Routing net id: 69
+Routing net id: 31
+Routing net id: 66
+Routing net id: 12
+Routing net id: 32
+Routing net id: 51
+Routing net id: 106
+Routing net id: 42
+Routing net id: 109
+Routing net id: 89
+Routing net id: 104
+Routing net id: 64
+Routing net id: 96
+Routing net id: 8
+Routing net id: 24
+Routing net id: 63
+Routing net id: 47
+Routing net id: 107
+Routing net id: 70
+70 didn't find path,may be some error and need try again
+Routing net id: 54
+Routing net id: 61
+Routing net id: 124
+Routing net id: 120
+Routing net id: 56
+Routing net id: 73
+Routing net id: 111
+Routing net id: 44
+Routing net id: 59
+Routing net id: 2
+Routing net id: 99
+Routing net id: 98
+Routing net id: 115
+Routing net id: 77
+Routing net id: 43
+Routing net id: 38
+Routing net id: 71
+Routing net id: 88
+Routing net id: 33
+Routing net id: 74
+Routing net id: 84
+Routing net id: 58
+Routing net id: 52
+Routing net id: 118
+118 didn't find path,may be some error and need try again
+Routing net id: 30
+Routing net id: 39
+Routing net id: 16
+Routing net id: 53
+Routing net id: 78
+Routing net id: 28
+Routing net id: 113
+Routing net id: 93
+Routing net id: 90
+Routing net id: 41
+Routing net id: 110
+Routing net id: 94
+Routing net id: 9
+Routing net id: 79
+Routing net id: 18
+Routing net id: 112
+Routing net id: 3
+Routing net id: 21
+Routing net id: 29
+Routing net id: 83
+83 didn't find path,may be some error and need try again
+Routing net id: 97
+Routing net id: 57
+Routing net id: 46
+Routing net id: 102
+Routing net id: 20
+Routing net id: 45
+Routing net id: 4
+Routing net id: 85
+Routing net id: 80
+Routing net id: 50
+Routing net id: 119
+Routing net id: 26
+26 didn't find path,may be some error and need try again
+Routing net id: 7
+Routing net id: 86
+Routing net id: 117
+Routing net id: 14
+14 didn't find path,may be some error and need try again
+Routing net id: 36
+Routing net id: 27
+Routing net id: 60
+Routing net id: 101
+Routing net id: 65
+Routing net id: 25
+Routing net id: 6
+Routing net id: 34
+Routing net id: 116
+116 didn't find path,may be some error and need try again
+Routing net id: 105
+Routing net id: 108
+Routing net id: 91
+Routing net id: 103
+103 didn't find path,may be some error and need try again
+Routing net id: 67
+Routing net id: 128
+Routing net id: 127
+Routing net id: 126
+Routing net id: 55
+Routing net id: 15
+Routing net id: 95
+Routing net id: 17
+Iteration:2
+learning_rate:0.2625
+Routing net id: 103
+Routing net id: 116
+Routing net id: 14
+Routing net id: 26
+Routing net id: 83
+Routing net id: 118
+Routing net id: 70
+Routing net id: 123
+Routing net id: 121
+Routing net id: 92
+Routing net id: 75
+Routing net id: 72
+Routing net id: 68
+Routing net id: 13
+Routing net id: 62
+Routing net id: 87
+Routing net id: 35
+Routing net id: 76
+Routing net id: 11
+Routing net id: 40
+Routing net id: 82
+Routing net id: 22
+Routing net id: 37
+Routing net id: 5
+Routing net id: 48
+Routing net id: 10
+Routing net id: 114
+Routing net id: 81
+Routing net id: 1
+Routing net id: 19
+Routing net id: 23
+Routing net id: 49
+Routing net id: 125
+Routing net id: 122
+Routing net id: 100
+Routing net id: 69
+Routing net id: 31
+Routing net id: 66
+Routing net id: 12
+Routing net id: 32
+Routing net id: 51
+Routing net id: 106
+Routing net id: 42
+42 didn't find path,may be some error and need try again
+Routing net id: 109
+Routing net id: 89
+Routing net id: 104
+Routing net id: 64
+Routing net id: 96
+Routing net id: 8
+Routing net id: 24
+Routing net id: 63
+Routing net id: 47
+Routing net id: 107
+Routing net id: 70
+Routing net id: 54
+Routing net id: 61
+Routing net id: 124
+Routing net id: 120
+Routing net id: 56
+Routing net id: 73
+Routing net id: 111
+Routing net id: 44
+44 didn't find path,may be some error and need try again
+Routing net id: 59
+Routing net id: 2
+Routing net id: 99
+Routing net id: 98
+Routing net id: 115
+Routing net id: 77
+Routing net id: 43
+43 didn't find path,may be some error and need try again
+Routing net id: 38
+38 didn't find path,may be some error and need try again
+Routing net id: 71
+Routing net id: 88
+Routing net id: 33
+Routing net id: 74
+Routing net id: 84
+Routing net id: 58
+Routing net id: 52
+Routing net id: 118
+Routing net id: 30
+Routing net id: 39
+39 didn't find path,may be some error and need try again
+Routing net id: 16
+Routing net id: 53
+Routing net id: 78
+Routing net id: 28
+28 didn't find path,may be some error and need try again
+Routing net id: 113
+Routing net id: 93
+Routing net id: 90
+Routing net id: 41
+41 didn't find path,may be some error and need try again
+Routing net id: 110
+Routing net id: 94
+Routing net id: 9
+Routing net id: 79
+Routing net id: 18
+Routing net id: 112
+Routing net id: 3
+Routing net id: 21
+Routing net id: 29
+Routing net id: 83
+Routing net id: 97
+Routing net id: 57
+Routing net id: 46
+46 didn't find path,may be some error and need try again
+Routing net id: 102
+Routing net id: 20
+Routing net id: 45
+45 didn't find path,may be some error and need try again
+Routing net id: 4
+Routing net id: 85
+Routing net id: 80
+Routing net id: 50
+Routing net id: 119
+Routing net id: 26
+26 didn't find path,may be some error and need try again
+Routing net id: 7
+Routing net id: 86
+Routing net id: 117
+117 didn't find path,may be some error and need try again
+Routing net id: 14
+Routing net id: 36
+36 didn't find path,may be some error and need try again
+Routing net id: 27
+27 didn't find path,may be some error and need try again
+Routing net id: 60
+Routing net id: 101
+Routing net id: 65
+Routing net id: 25
+Routing net id: 6
+Routing net id: 34
+Routing net id: 116
+116 didn't find path,may be some error and need try again
+Routing net id: 105
+Routing net id: 108
+Routing net id: 91
+Routing net id: 103
+Routing net id: 67
+Routing net id: 128
+Routing net id: 127
+Routing net id: 126
+Routing net id: 55
+Routing net id: 15
+15 didn't find path,may be some error and need try again
+Routing net id: 95
+Routing net id: 17
